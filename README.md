@@ -18,17 +18,49 @@ npm install
 npm install gulp
 ```
 
+## See mustache example
+```shell
+rails s
+```
 
+http://localhost:3000/index.html
 
 ## Run grunt task
 _Run this task with the `grunt watch` command._
+
+grunt setting files:
+```
+Gruntfile.js
+```
 
 
 ## Run gulp task
 _Run this task with the `gulp` command._
 
+gulp setting files:
+```
+gulpfile.js
+```
 
 
+## Install new bower lib
+bower install jquery --save
+
+bower install mustache --save
+
+bower setting files:
+```
+.bowerrc
+bower.json
+```
+
+## Install new node package lib
+npm install underscore --save-dev
+
+npm setting files:
+```
+package.json
+```
 
 # study note
 
@@ -69,9 +101,11 @@ http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web
 https://css-tricks.com/whats-great-bower/
 
 npm install -g bower
+
 bower search backbone
 
 bower install jquery
+
 bower install backbone
 
 bower install jquery#1.7.0 #specify version of a package
