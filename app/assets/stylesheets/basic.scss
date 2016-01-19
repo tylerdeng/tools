@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: #333;
+}
+body {
+  padding: 38px 0 0 0;
+}
+a {
+  text-decoration:none;
+}
+i {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+.intranet-container {
+  width: 1200px !important;
+  margin-top: 20px;
+}
+.clear-fix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.holder {
+  visibility: hidden;
+}
+.red {
+  color: red;
+}
+.light-gray {
+  color: #aaa;
+}
+.disable {
+  background: #ddd !important;
+  pointer-events: none;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tools",
+  "authors": [
+    "tdeng <tdeng@xogrp.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "mustache.js": "mustache#~2.2.1"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mustache Sample</title>
+</head>
+<body>
+  <h2>Titles</h2>
+  <ul id="talktitles">
+  </ul>
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/mustache.js/mustache.js"></script>
+
+  <script id="speakers-template" type="text/template">
+    {{#speakers}}
+      <li>{{title}}</li>
+    {{/speakers}}
+  </script>
+
+  <script>
+    $(function() {
+      $.getJSON('./sampledata.json', function(data) {
+          var template = $('#speakers-template').html();
+          var info = Mustache.to_html(template, data);
+          $('#talktitles').html(info);
+      });
+    });
+  </script>
+</body>
+</html>
