@@ -3,7 +3,6 @@
 Grunt task to run tests with [Jest](http://facebook.github.io/jest/).
 
 
-
 ## Getting Started
 
 ```shell
@@ -31,10 +30,9 @@ _Run this task with the `gulp` command._
 
 
 
+# study note
 
-
-=========================================NOTE=============================================
-NPM:
+### NPM:
 brew update
 brew install node(Mac)
 
@@ -56,10 +54,8 @@ ls ~/.npm
 npm cache clean
 
 
-=============================================================================================
 
-
-Bower:
+### Bower:
 http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web…
 https://css-tricks.com/whats-great-bower/
 
@@ -69,39 +65,39 @@ bower search backbone
 bower install jquery
 bower install backbone
 
-＃bower install jquery#1.7.0 #specify version of a package
+bower install jquery#1.7.0 #specify version of a package
 
-#we can also install by github url or a single file:
-#bower install git://github.com/pivotal/jasmine.git
-#bower install http://backbonejs.org/backbone-min.js
-#You can even install a package from your own computer: something you’re working on
-#bower install ~/code/secretProject
+we can also install by github url or a single file:
+bower install git://github.com/pivotal/jasmine.git
+bower install http://backbonejs.org/backbone-min.js
+You can even install a package from your own computer: something you’re working on
+bower install ~/code/secretProject
 
-#update next version of a library, note that you can’t pass a package name to the update command 
+update next version of a library, note that you can’t pass a package name to the update command 
 bower update
 
-#if you want to update a specify version of a specify library:
+if you want to update a specify version of a specify library:
 bower install jquery#1.7.0
 
 How to use?
+```
 <script src="components/jquery/jquery.js"></script>
-
-#Other cammand:
-#list the packages you currently have installed
+```
+Other cammand:
+list the packages you currently have installed
 bower ls
 bower lookup backbone
 bower info
 
-#if you want to remove all the packages cached to ~/.bower
+if you want to remove all the packages cached to ~/.bower
 bower cache-clean
 
 bower init
 
 
-=============================================================================================
 
 
-Grunt
+### Grunt
 http://gruntjs.com/getting-started
 https://www.smashingmagazine.com/2013/10/get-up-running-grunt/
 
@@ -118,9 +114,8 @@ npm install grunt-contrib-watch grunt-exec --save-dev
 grunt watch
 
 
-=============================================================================================
 
-Gulp
+### Gulp
 https://www.codefellows.org/blog/quick-intro-to-gulp-js
 
 npm install gulp gulp-util --save-dev
