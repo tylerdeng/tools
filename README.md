@@ -96,7 +96,7 @@ npm cache clean
 
 
 ### Bower:
-http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web
+http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web--net-27774
 
 https://css-tricks.com/whats-great-bower/
 
@@ -190,3 +190,9 @@ https://github.com/iaretiga/gulp-jest-watcher/blob/master/gulpfile.js
 `
 gulp
 `
+
+### Moustache
+
+http://www.lynda.com/articles/introduction-to-javascript-templating-using-mustache-js
+
+http://coenraets.org/blog/2011/12/tutorial-html-templates-with-mustache-js/
